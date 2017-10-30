@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/comp523-602/sample-server/issues"
   },
-  "homepage": "https://github.com/comp523-602/sample-server#readme"
+  "homepage": "https://github.com/comp523-602/sample-server#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
