@@ -7,5 +7,5 @@ server.listen(5063, "165.227.73.61", function () {
 });
 
 server.get('*', function (req, res) {
-    res.send('hello '+req.params.name+'!');
+    res.send('hello '+req.query.name+'!');
 });
